@@ -1,0 +1,7 @@
+  #Write a function that capitalizes the first and fourth letters of a name
+
+def myfunc(str):
+  if len(str)>3:
+    return str[:3].capitalize() + str[3:].capitalize()
+  else:
+    return 'Word is too short!!'
